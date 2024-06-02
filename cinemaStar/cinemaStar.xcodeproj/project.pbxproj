@@ -7,12 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4840306C2C0D063E00146995 /* CinemaInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484030592C0D063E00146995 /* CinemaInteractor.swift */; };
+		4840306D2C0D063E00146995 /* CinemaPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4840305B2C0D063E00146995 /* CinemaPresenter.swift */; };
+		4840306E2C0D063E00146995 /* CinemaRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4840305D2C0D063E00146995 /* CinemaRouter.swift */; };
+		4840306F2C0D063E00146995 /* StartCinemaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4840305F2C0D063E00146995 /* StartCinemaView.swift */; };
+		484030702C0D063E00146995 /* DetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484030622C0D063E00146995 /* DetailInteractor.swift */; };
+		484030712C0D063E00146995 /* DetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484030642C0D063E00146995 /* DetailPresenter.swift */; };
+		484030722C0D063E00146995 /* DetailCinemaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484030662C0D063E00146995 /* DetailCinemaView.swift */; };
+		484030732C0D063E00146995 /* Extension+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484030692C0D063E00146995 /* Extension+View.swift */; };
+		484030752C0D072800146995 /* ApplicationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484030742C0D072800146995 /* ApplicationCoordinator.swift */; };
 		484428BA2BD82F8E00FF05C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484428B92BD82F8E00FF05C2 /* AppDelegate.swift */; };
 		484428BC2BD82F8E00FF05C2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484428BB2BD82F8E00FF05C2 /* SceneDelegate.swift */; };
 		484428BE2BD82F8E00FF05C2 /* CinemaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484428BD2BD82F8E00FF05C2 /* CinemaViewController.swift */; };
 		484428C62BD82F9000FF05C2 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 484428C52BD82F9000FF05C2 /* Base */; };
 		484428D02BD8F6ED00FF05C2 /* AppBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484428CF2BD8F6ED00FF05C2 /* AppBuilder.swift */; };
-		484428D42BD8F7F000FF05C2 /* ApplicationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484428D32BD8F7F000FF05C2 /* ApplicationCoordinator.swift */; };
 		484428D62BD8F81000FF05C2 /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484428D52BD8F81000FF05C2 /* BaseCoordinator.swift */; };
 		484428D82BD8F82F00FF05C2 /* CinemaCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484428D72BD8F82F00FF05C2 /* CinemaCollectionViewController.swift */; };
 		484428DB2BD8F87C00FF05C2 /* TypeAllias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484428DA2BD8F87C00FF05C2 /* TypeAllias.swift */; };
@@ -57,6 +65,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		484030592C0D063E00146995 /* CinemaInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CinemaInteractor.swift; sourceTree = "<group>"; };
+		4840305B2C0D063E00146995 /* CinemaPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CinemaPresenter.swift; sourceTree = "<group>"; };
+		4840305D2C0D063E00146995 /* CinemaRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CinemaRouter.swift; sourceTree = "<group>"; };
+		4840305F2C0D063E00146995 /* StartCinemaView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartCinemaView.swift; sourceTree = "<group>"; };
+		484030622C0D063E00146995 /* DetailInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailInteractor.swift; sourceTree = "<group>"; };
+		484030642C0D063E00146995 /* DetailPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailPresenter.swift; sourceTree = "<group>"; };
+		484030662C0D063E00146995 /* DetailCinemaView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailCinemaView.swift; sourceTree = "<group>"; };
+		484030692C0D063E00146995 /* Extension+View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+View.swift"; sourceTree = "<group>"; };
+		484030742C0D072800146995 /* ApplicationCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationCoordinator.swift; sourceTree = SOURCE_ROOT; };
 		484428B62BD82F8E00FF05C2 /* cinemaStar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cinemaStar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		484428B92BD82F8E00FF05C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		484428BB2BD82F8E00FF05C2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -64,7 +81,6 @@
 		484428C52BD82F9000FF05C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		484428C72BD82F9000FF05C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		484428CF2BD8F6ED00FF05C2 /* AppBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppBuilder.swift; sourceTree = "<group>"; };
-		484428D32BD8F7F000FF05C2 /* ApplicationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ApplicationCoordinator.swift; path = ../../../../Desktop/ApplicationCoordinator.swift; sourceTree = "<group>"; };
 		484428D52BD8F81000FF05C2 /* BaseCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCoordinator.swift; sourceTree = "<group>"; };
 		484428D72BD8F82F00FF05C2 /* CinemaCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CinemaCollectionViewController.swift; sourceTree = "<group>"; };
 		484428DA2BD8F87C00FF05C2 /* TypeAllias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeAllias.swift; sourceTree = "<group>"; };
@@ -119,6 +135,102 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4840305A2C0D063E00146995 /* CinemaInteractor */ = {
+			isa = PBXGroup;
+			children = (
+				484030592C0D063E00146995 /* CinemaInteractor.swift */,
+			);
+			path = CinemaInteractor;
+			sourceTree = "<group>";
+		};
+		4840305C2C0D063E00146995 /* CinemaPresenter */ = {
+			isa = PBXGroup;
+			children = (
+				4840305B2C0D063E00146995 /* CinemaPresenter.swift */,
+			);
+			path = CinemaPresenter;
+			sourceTree = "<group>";
+		};
+		4840305E2C0D063E00146995 /* CinemaRouter */ = {
+			isa = PBXGroup;
+			children = (
+				4840305D2C0D063E00146995 /* CinemaRouter.swift */,
+			);
+			path = CinemaRouter;
+			sourceTree = "<group>";
+		};
+		484030602C0D063E00146995 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4840305F2C0D063E00146995 /* StartCinemaView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		484030612C0D063E00146995 /* CinemaModule */ = {
+			isa = PBXGroup;
+			children = (
+				4840305A2C0D063E00146995 /* CinemaInteractor */,
+				4840305C2C0D063E00146995 /* CinemaPresenter */,
+				4840305E2C0D063E00146995 /* CinemaRouter */,
+				484030602C0D063E00146995 /* View */,
+			);
+			path = CinemaModule;
+			sourceTree = "<group>";
+		};
+		484030632C0D063E00146995 /* DetailInteractor */ = {
+			isa = PBXGroup;
+			children = (
+				484030622C0D063E00146995 /* DetailInteractor.swift */,
+			);
+			path = DetailInteractor;
+			sourceTree = "<group>";
+		};
+		484030652C0D063E00146995 /* DetailPresenter */ = {
+			isa = PBXGroup;
+			children = (
+				484030642C0D063E00146995 /* DetailPresenter.swift */,
+			);
+			path = DetailPresenter;
+			sourceTree = "<group>";
+		};
+		484030672C0D063E00146995 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				484030662C0D063E00146995 /* DetailCinemaView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		484030682C0D063E00146995 /* DetailModule */ = {
+			isa = PBXGroup;
+			children = (
+				484030632C0D063E00146995 /* DetailInteractor */,
+				484030652C0D063E00146995 /* DetailPresenter */,
+				484030672C0D063E00146995 /* View */,
+			);
+			path = DetailModule;
+			sourceTree = "<group>";
+		};
+		4840306A2C0D063E00146995 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				484030692C0D063E00146995 /* Extension+View.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		4840306B2C0D063E00146995 /* SUI */ = {
+			isa = PBXGroup;
+			children = (
+				484030612C0D063E00146995 /* CinemaModule */,
+				484030682C0D063E00146995 /* DetailModule */,
+				4840306A2C0D063E00146995 /* Extension */,
+			);
+			name = SUI;
+			path = "../../../Downloads/Cinema-Viper 2/Cinema Star/SUI";
+			sourceTree = "<group>";
+		};
 		484428AD2BD82F8E00FF05C2 = {
 			isa = PBXGroup;
 			children = (
@@ -138,6 +250,7 @@
 		484428B82BD82F8E00FF05C2 /* cinemaStar */ = {
 			isa = PBXGroup;
 			children = (
+				4840306B2C0D063E00146995 /* SUI */,
 				48AFAA242BDD538F0009BD33 /* AppDelegate */,
 				48AFAA232BDD537E0009BD33 /* SceneDelegate */,
 				4844290D2BD8FD9000FF05C2 /* CinemaModule */,
@@ -167,7 +280,6 @@
 		484428D22BD8F7B500FF05C2 /* Coordinator */ = {
 			isa = PBXGroup;
 			children = (
-				484428D32BD8F7F000FF05C2 /* ApplicationCoordinator.swift */,
 				484428D52BD8F81000FF05C2 /* BaseCoordinator.swift */,
 				484428D72BD8F82F00FF05C2 /* CinemaCollectionViewController.swift */,
 			);
@@ -311,6 +423,7 @@
 		484429202BDAED8B00FF05C2 /* Favourite Service */ = {
 			isa = PBXGroup;
 			children = (
+				484030742C0D072800146995 /* ApplicationCoordinator.swift */,
 				484A74362BDAEF160077689C /* Favourite Service.swift */,
 			);
 			path = "Favourite Service";
@@ -497,17 +610,21 @@
 			files = (
 				484A74372BDAEF160077689C /* Favourite Service.swift in Sources */,
 				484428E72BD8F98400FF05C2 /* NetworkService.swift in Sources */,
-				484428D42BD8F7F000FF05C2 /* ApplicationCoordinator.swift in Sources */,
 				48AFAA172BDC49DF0009BD33 /* ShimerDetailViewCell.swift in Sources */,
 				484428EC2BD8FA1C00FF05C2 /* Cinema.swift in Sources */,
+				4840306E2C0D063E00146995 /* CinemaRouter.swift in Sources */,
 				484428DD2BD8F89900FF05C2 /* UiImageView + Extension.swift in Sources */,
 				484428EA2BD8FA0200FF05C2 /* Backdrop.swift in Sources */,
+				4840306F2C0D063E00146995 /* StartCinemaView.swift in Sources */,
 				48AFAA072BDC48950009BD33 /* ActorsViewCell.swift in Sources */,
 				4844290A2BD8FC7400FF05C2 /* DetailCinemaTableViewCell.swift in Sources */,
 				48AFAA192BDC49F70009BD33 /* ShimerDiscriptionViewCell.swift in Sources */,
+				484030722C0D063E00146995 /* DetailCinemaView.swift in Sources */,
 				484429172BD8FE3100FF05C2 /* ViewModel.swift in Sources */,
 				484428D62BD8F81000FF05C2 /* BaseCoordinator.swift in Sources */,
+				484030752C0D072800146995 /* ApplicationCoordinator.swift in Sources */,
 				484428BE2BD82F8E00FF05C2 /* CinemaViewController.swift in Sources */,
+				484030702C0D063E00146995 /* DetailInteractor.swift in Sources */,
 				484428DB2BD8F87C00FF05C2 /* TypeAllias.swift in Sources */,
 				4844290C2BD8FC9A00FF05C2 /* DetailViewModel.swift in Sources */,
 				48AFAA052BDC48560009BD33 /* ActorsCollectionViewCell.swift in Sources */,
@@ -524,13 +641,17 @@
 				48AFAA1B2BDC4A160009BD33 /* ShimerRecomendationCollectionViewCell.swift in Sources */,
 				48AFAA132BDC49A30009BD33 /* ShimerActorCollectionViewCell.swift in Sources */,
 				484428F52BD8FAD600FF05C2 /* Country.swift in Sources */,
+				4840306C2C0D063E00146995 /* CinemaInteractor.swift in Sources */,
+				484030712C0D063E00146995 /* DetailPresenter.swift in Sources */,
 				484428EE2BD8FA6800FF05C2 /* CinemaDto.swift in Sources */,
 				484428D82BD8F82F00FF05C2 /* CinemaCollectionViewController.swift in Sources */,
 				484429152BD8FE0700FF05C2 /* CinemaViewCell.swift in Sources */,
 				484428FD2BD8FB3000FF05C2 /* SimilarMovie.swift in Sources */,
+				4840306D2C0D063E00146995 /* CinemaPresenter.swift in Sources */,
 				48AFAA0B2BDC49020009BD33 /* DiscriptionViewCell.swift in Sources */,
 				484429052BD8FBD600FF05C2 /* DetailData.swift in Sources */,
 				484428DF2BD8F8B400FF05C2 /* UiViewController + Extension.swift in Sources */,
+				484030732C0D063E00146995 /* Extension+View.swift in Sources */,
 				484428F22BD8FAA500FF05C2 /* Rating.swift in Sources */,
 				484429072BD8FBF900FF05C2 /* DetailCinemaViewController.swift in Sources */,
 				484428BA2BD82F8E00FF05C2 /* AppDelegate.swift in Sources */,
@@ -690,6 +811,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -719,6 +841,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
